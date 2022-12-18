@@ -43,6 +43,10 @@ a {
   color: #f8f8f2;
 }
 
+.login {
+  color: #ff79c6;
+}
+
 .img-bg {
   position: fixed;
   width: 40vw;
@@ -70,6 +74,13 @@ p {
   padding-left: 2rem;
   padding-right: 4rem;
   font-size: 1rem;
+  font-weight: 600;
+}
+
+.login-msg {
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 0.7rem;
   font-weight: 600;
 }
 
