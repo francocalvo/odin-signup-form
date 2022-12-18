@@ -1,12 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title></title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="style.css" rel="stylesheet">
-  </head>
-  <body>
-  
-  </body>
+
+<head>
+  <title></title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="meyer.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+  <div class="illustration">
+    <img src="assets/cheng-feng-psdV2Rl-GvU-unsplash.jpg" alt="Building with Cyberpunk lightning" class="img-bg" />
+    <legend>
+      <a href="https://unsplash.com/es/fotos/psdV2Rl-GvU">
+        <i class="fa fa-image"></i> Source
+      </a>
+
+      <a href="https://github.com/francocalvo">
+        <i class="fa fa-github"></i> GitHub
+      </a>
+    </legend>
+  </div>
+
+  <div class="main">
+    <div class="msg">
+      <p>
+        This is not a real online service! You know you need something like
+        this in your life to help you realize your deepest dreams.
+      </p>
+      <p>Sign up <em>now</em> to get started.</p>
+      <p>You <em>know</em> you want to.</p>
+    </div>
+    <form id="signup">
+      <h1>Let's do this!</h1>
+
+      <div class="row">
+        <div class="field">
+          <label for="first">FIRST NAME</label>
+          <input type="text" id="first" name="first" value="" data-title="Please enter a name. For example: John."
+            required />
+          <span></span>
+        </div>
+
+        <div class="field">
+          <label for="last">LAST NAME</label>
+          <input type="text" id="last" name="last" value="" data-title="Please enter a last name. For example: Smith."
+            required />
+          <span></span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="field">
+          <label for="email">EMAIL</label>
+          <input type="email" id="email" name="email" value="" data-title="Please add valid email." required />
+          <span></span>
+        </div>
+
+        <div class="field">
+          <label for="phone">PHONE NUMBER</label>
+          <input type="tel" id="phone" name="phone" value="" data-title="Please add valid phone number." required />
+          <span></span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="field">
+          <label for="pass">PASSWORD</label>
+          <input type="password" id="pass" name="pass" value="" data-title="Please add valid password." required />
+          <span></span>
+        </div>
+
+        <div class="field">
+          <label for="pass">CONFIRM PASSWORD</label>
+          <input type="password" id="pass" name="pass" value="" data-title="Please confirm password." required />
+          <span></span>
+        </div>
+      </div>
+    </form>
+    <div class="msg last">
+      <button type="submit" form="signup" class="btn">Create Account</button>
+    </div>
+  </div>
+</body>
+
 </html>
